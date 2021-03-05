@@ -44,3 +44,15 @@ height: 25px;
 padding-left:10px;
 
 }
+
+
+.menu_bas ul{
+display: flex;
+list-style-type: none;
+
+}
+
+.menu_bas ul li{
+padding-right: 200px;
+
+}
