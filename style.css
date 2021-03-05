@@ -1,0 +1,46 @@
+/**CSS**/
+
+body{
+    margin: 50px;
+}
+
+#paragraphe_rouge p{
+    color:crimson;
+}
+
+p{
+    color: blue;
+}
+
+.titre h3{
+color:darkgoldenrod;
+
+}
+
+input.btn_rechercher  {
+background-color: blue;
+color:white ;
+width:130px; 
+height: 30px;
+
+font-size: 18px;
+
+}
+
+input.input_rechercher { 
+height: 25px;
+}
+
+.menu{
+    float: right;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.menu ul li{
+padding-left:10px;
+
+}
