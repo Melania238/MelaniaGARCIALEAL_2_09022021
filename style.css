@@ -4,16 +4,15 @@ body{
     margin: 50px;
 }
 
-#paragraphe_rouge p{
-    color:crimson;
-}
-
 p{
     color: blue;
 }
-
-.titre h3{
-color:darkgoldenrod;
+input.input_rechercher {
+background-color:white;
+color:black ;
+width:130px; 
+height: 30px;
+border-radius: 5px 0px 0px 5px;
 
 }
 
@@ -22,6 +21,8 @@ background-color: blue;
 color:white ;
 width:130px; 
 height: 30px;
+border-radius: 0px 5px 5px 0px;
+
 
 font-size: 18px;
 
@@ -34,6 +35,7 @@ height: 25px;
 .menu{
     float: right;
 }
+
 .menu ul{
     display: flex;
     list-style-type: none;
@@ -45,6 +47,9 @@ padding-left:10px;
 
 }
 
+.menu ul li {  
+color: blue
+}
 
 .menu_bas ul{
 display: flex;
@@ -56,3 +61,27 @@ list-style-type: none;
 padding-right: 200px;
 
 }
+.filtres ul{
+padding-left: 100px;
+
+}
+#conteneur
+{
+    background-color: gainsboro;
+    width: 400px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: space-around;
+}
+
+.image1:nth-child(1) 
+.image2:nth-child(2)
+.image3:nth-child(3)
+.image4:nth-child(4)
+.image5:nth-child(5)
+.image6:nth-child(6) 
+
+
+
