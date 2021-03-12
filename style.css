@@ -1,19 +1,26 @@
 /**CSS**/
 
 body{
-    margin: 50px;
+    margin: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 100%;
+}
+
+.logo{
+    width: 100%;
 }
 
 p{
     color: blue;
 }
+
 input.input_rechercher {
 background-color:white;
 color:black ;
 width:130px; 
 height: 30px;
 border-radius: 5px 0px 0px 5px;
-
 }
 
 input.btn_rechercher  {
@@ -22,10 +29,7 @@ color:white ;
 width:130px; 
 height: 30px;
 border-radius: 0px 5px 5px 0px;
-
-
 font-size: 18px;
-
 }
 
 input.input_rechercher { 
@@ -34,54 +38,116 @@ height: 25px;
 
 .menu{
     float: right;
+    margin-top: 0;
 }
 
 .menu ul{
     display: flex;
-    list-style-type: none;
-    
+    list-style-type: none;   
+    color: black;
+   
 }
 
 .menu ul li{
-padding-left:10px;
-
+padding:30px 50px 10px 15px;
+font-size: 15px;
+color: black;
 }
 
-.menu ul li {  
-color: blue
+.menu ul li:hover{
+    color:blue;
+    border-top: 1px solid blue;
 }
 
-.menu_bas ul{
-display: flex;
-list-style-type: none;
-
-}
-
-.menu_bas ul li{
-padding-right: 200px;
-
-}
 .filtres ul{
 padding-left: 100px;
-
 }
-#conteneur
-{
+
+.global-thumb{
     background-color: gainsboro;
-    width: 400px;
+    width: 525px;
+    padding-bottom: 43px;
+    float: left;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: baseline;
-    align-content: space-around;
 }
 
-.image1:nth-child(1) 
-.image2:nth-child(2)
-.image3:nth-child(3)
-.image4:nth-child(4)
-.image5:nth-child(5)
-.image6:nth-child(6) 
+#conteneur1 .thumb{
+    width: 150px;
+    height: 130px;
+}
+
+#conteneur2{
+    background-color: gainsboro;
+    margin-left: 44px;
+    width: 250px;
+    /* display: flex; */
+    float: left;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#conteneur2 .thumb{
+    width: 136px;
+    margin-left: 54px;
+}
+
+#global{
+width: 900px;
+}
+
+h6{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+} 
+
+p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: black;
+}
+
+.img{
+background-color: white;
+}
+
+#conteneur3{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 
+.thumb{
+    margin-bottom: 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+}
 
+footer{
+    float: left; 
+    background-color: gainsboro; 
+    width: 100%;
+    margin:0 auto; 
+}
+
+footer ul{
+   float: left; 
+   padding-left: 150px;
+}
+
+footer li{
+list-style-type: none;
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+padding-bottom: 12px;
+color: grey;
+}
+
+footer li :nth-child(1){
+font-weight: bold;
+color: black;
+}
