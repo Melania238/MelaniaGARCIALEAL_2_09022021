@@ -67,15 +67,20 @@ padding-left: 100px;
     background-color: gainsboro;
     width: 525px;
     padding-bottom: 43px;
-    float: left;
+  
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 #conteneur1 .thumb{
-    width: 150px;
-    height: 130px;
+    width: 170px;
+    height: 200px;
+}
+
+section .img{
+
+    border-radius: 23% 23% 0% 0%;
 }
 
 #conteneur2{
@@ -93,23 +98,48 @@ padding-left: 100px;
     margin-left: 54px;
 }
 
-#global{
-width: 900px;
-}
+
 
 h6{
 font-family: Arial, Helvetica, sans-serif;
-font-size: 10px;
+font-size: 12px;
+text-align: left;
+margin:0;
 } 
 
 p{
 font-family: Arial, Helvetica, sans-serif;
-font-size: 10px;
+font-size: 12px;
 color: black;
+text-align: left;
+}
+
+.etoiles .fas {
+text-align: left;
+color: #0065FC;
+}
+
+a{
+    color:black;
+    text-decoration: none;
 }
 
 .img{
 background-color: white;
+border-radius: 23% 23% 0% 0%;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    float: left;
+    background-color: gainsboro;
+}
+
+.texte {
+float: right;
+
 }
 
 #conteneur3{
@@ -117,8 +147,8 @@ background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 32%;
 }
-
 
 .thumb{
     margin-bottom: 30px;
@@ -142,7 +172,7 @@ footer ul{
 footer li{
 list-style-type: none;
 font-size: 13px;
-font-family: Arial, Helvetica, sans-serif;
+font-family:Arial, Helvetica, sans-serif;
 padding-bottom: 12px;
 color: grey;
 }
