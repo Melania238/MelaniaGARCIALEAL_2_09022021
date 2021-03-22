@@ -80,7 +80,7 @@ padding-left: 100px;
 
 section .img{
 
-    border-radius: 23% 23% 0% 0%;
+    border-radius: 20% 20% 0% 0%;
 }
 
 #conteneur2{
@@ -114,7 +114,7 @@ color: black;
 text-align: left;
 }
 
-.etoiles .fas {
+.etoiles .fas fa-star {
 text-align: left;
 color: #0065FC;
 }
@@ -151,10 +151,10 @@ float: right;
 }
 
 .thumb{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     background-color: white;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 footer{
