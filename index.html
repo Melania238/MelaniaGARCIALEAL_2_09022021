@@ -5,6 +5,8 @@
   <title>Projet OC</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/7227648c04.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
   
 </head>
 
@@ -35,8 +37,8 @@
           
 
             <div class="input-icone">
-                <input type="text" placeholder="Marseille, France">
-                <i class="fas fa-map-marker-alt fa-lg fa-fw" aria-hidden="true"></i>
+                <input type="search" placeholder="Marseille, France">
+                <i class="fas fa-map-marker-alt fa-lg fa-fw" id="localisation" aria-hidden="true"></i>
                 <input type="button" name="button" class="btn_rechercher" value="rechercher">
             </div>
 
@@ -49,23 +51,23 @@
 
 <!-- icones -->
 <div class="input-icone">
-<input type="text" placeholder="Economie">
+<input type="text" value="Economie">
 <i class="fas fa-money-bill-wave fa-lg fa-fw" aria-hidden="true"></i>
 </div>
 
 <div class="input-icone">
-<input type="text" placeholder="Familiale">
+<input type="text" value="Familiale">
 <i class="fas fa-child fa-lg fa-fw" aria-hidden="true"></i>
 </div>
 
 <div class="input-icone">
-<input type="text" placeholder="Romantique">
+<input type="text" value="Romantique">
 <i class="fas fa-heart fa-lg fa-fw" aria-hidden="true"></i>
 </div>
 
 
 <div class="input-icone">
-<input type="text" placeholder="Animaux autorisés">
+<input type="text" value="Animaux autorisés">
 <i class="fas fa-dog fa-lg fa-fw" aria-hidden="true"></i>
 </div>
 
@@ -75,13 +77,15 @@
 
 
 
-   <section>
+   <section class="section1">
         <h5>Hébergements à Marseilles</h5>
 
         <div class="global-thumb">
-        <a href="https://openclassrooms.com">
+        
+
         <div class="thumb">
-            <img src="Hebergement_a_Marseilles/img 1.jpg"alt="img 1" width="90" height="50" class="img"/>
+            <a href="">
+            <img src="Hebergement_a_Marseilles/img 1.jpg" alt="img 1" width="" height="" class="img"/>
             <h6> Auberge de la Cannebière</h6>
             <p>Nuit à partir de 25€</p>
             <i class="fas fa-star"></i>
@@ -92,9 +96,10 @@
           
         </div>
         </a>
+
         <div class="thumb">
-            <a href="https://openclassrooms.com">
-            <img src="Hebergement_a_Marseilles/img 2.jpg"alt="img 2" width="90" height="50" class="img"/>
+            <a href="">
+            <img src="Hebergement_a_Marseilles/img 2.jpg"alt="img 2" width="" height="" class="img"/>
             <h6>Hôtel du port</h6>
             <p>Nuit à partir de 52€</p>
             <i class="fas fa-star"></i>
@@ -106,8 +111,8 @@
         </a>
 
         <div class="thumb">
-            <a href="https://openclassrooms.com">
-            <img src="Hebergement_a_Marseilles/img 3.jpg"alt="img 3" width="90" height="50" class="img"/>
+            <a href="">
+            <img src="Hebergement_a_Marseilles/img 3.jpg"alt="img 3" width="" height="" class="img"/>
             <h6>Hôtel Les mouettes</h6> 
             <p>Nuit à partir de 76€</p> 
             <i class="fas fa-star"></i>
@@ -119,8 +124,8 @@
         </a>
 
         <div class="thumb">
-            <a href="https://openclassrooms.com">
-            <img src="Hebergement_a_Marseilles/img 4.jpg"alt="img 4" width="90" height="50" class="img"/>   
+            <a href="">
+            <img src="Hebergement_a_Marseilles/img 4.jpg"alt="img 4" width="" height="" class="img"/>   
             <h6>Hôtel de la mer</h6>
             <p>Nuit à partir de <strong>46€</strong></p>
             <i class="fas fa-star"></i>
@@ -132,8 +137,8 @@
         </a>
 
         <div class="thumb">
-            <a href="https://openclassrooms.com">
-            <img src="Hebergement_a_Marseilles/img 5.jpg"alt="img 5" width="90" height="50" class="img"/>
+            <a href="">
+            <img src="Hebergement_a_Marseilles/img 5.jpg"alt="img 5" width="" height="" class="img"/>
             <h6>Auberge Le Panier</h6>  
             <p>Nuit à partir <strong>23€</strong></p>
             <i class="fas fa-star"></i>
@@ -145,8 +150,8 @@
         </a>
 
         <div class="thumb">
-            <a href="https://openclassrooms.com">
-            <img src="Hebergement_a_Marseilles/img 6.jpg"alt="img 6" width="90" height="50" class="img"/>
+            <a href="">
+            <img src="Hebergement_a_Marseilles/img 6.jpg"alt="img 6" width="" height="" class="img"/>
             <h6>Hôtel chez Amina</h6>        
             <p>Nuit à partir de 96€</p>
             <i class="fas fa-star"></i>
@@ -160,12 +165,12 @@
    
 
 
-   <section>
+   <section class="section2">
 
         <aside> <h5>Les plus populaires</h5></aside>
 
     <div class="thumb">
-        <a href="https://openclassrooms.com">
+        <a href="">
         <img src="Les_plus_populaires/image 1.jpg"alt="image 1" width="121" height="70" class="img"/>
         <div class="texte">
             <h6> Hôtel le soleil du matin</h6>
@@ -179,11 +184,11 @@
     </div>
     </a>
 
-    <div class="thumb">
-        <a href="https://openclassrooms.com">
+    <!--<div class="thumb">
+        <a href="">
         <img src="Les_plus_populaires/image 2.jpg"alt="image 2" width="121" height="70" class="img"/>
         <div class="texte">
-        <h6>Au coeurde l'eau Chambres d'hôtes</h6>
+        <h6>Au coeur de l'eau Chambres d'hôtes</h6>
         <p>Nuit à partir de 72€</p>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
@@ -192,15 +197,14 @@
         <i class="fas fa-star"></i>
         </div>
     </div>
-    </a>
-
+    </a>-->
     <div class="thumb">
-        <a href="https://openclassrooms.com">
+        <a href="">
         <img src="Les_plus_populaires/image 3.jpg"alt="image 3" width="121" height="70" class="img"/>
         <div class="texte">
         <h6>Hôtel Tout bleu et Blanc</h6> 
         <p>Nuit à partir de 68€</p> 
-        <div id ="etoiles">
+        <div id="etoiles">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -208,8 +212,27 @@
             <i class="fas fa-star"></i>
         </div>
         </div>
+        </a>
     </div>
-    </a>
+    
+
+    <div class="thumb">
+        <a href="">
+        <img src="Les_plus_populaires/image 3.jpg"alt="image 3" width="121" height="70" class="img"/>
+        <div class="texte">
+        <h6>Hôtel Tout bleu et Blanc</h6> 
+        <p>Nuit à partir de 68€</p> 
+        <div id="etoiles">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        </div>
+        </a>
+    </div>
+   
    </section>
 
    <div id="conteneur3">
@@ -217,47 +240,47 @@
         <h5>Activités à Marseille</h5>
 
         <div class="thumb">
-        <a href="https://openclassrooms.com">
-        <img src="Activites_a_Marseille/1.jpg"alt="1" width="90" height="50" class="img"/>
+        <a href="">
+        <img src="Activites_a_Marseille/1.jpg"alt="1" width="" height="" class="img"/>
         <h6> Vieux Port</h6>
     </div>
     </a>
 
     <div class="thumb">
-        <a href="https://openclassrooms.com">
+        <a href="">
         <img src="Activites_a_Marseille/2.jpg"alt="2" width="90" height="50" class="img"/>
         <h6>Fort de Pomègues</h6>
     </div>
     </a>
 
     <div class="thumb">
-        <a href="https://openclassrooms.com">
+        <a href="">
         <img src="Activites_a_Marseille/3.jpg"alt="3" width="90" height="50" class="img"/>
         <h6>Iles du Frioul</h6> 
     </div>
     </a>
 
     <div class="thumb">
-        <a href="https://openclassrooms.com">
+        <a href="">
         <img src="Activites_a_Marseille/4.jpg"alt="4" width="90" height="50" class="img"/>   
         <h6>Parc National des Calanques</h6>
     </div>
     </a>
 
     <div class="thumb">
-        <a href="https://openclassrooms.com">
+        <a href="">
         <img src="Activites_a_Marseille/5.jpg"alt="5" width="90" height="50" class="img"/>
         <h6>Notre-Dame-de-la-Garde</h6>  
     </div>
     </a>
 
     <div class="thumb">
-        <a href="https://openclassrooms.com">
+        <a href="">
         <img src="Activites_a_Marseille/6.jpg"alt="6" width="90" height="50" class="img"/>
         <h6>Parc Longchamp</h6>        
     </div>
     </a>
-   </div>
+</div>
 
 <footer>
    
