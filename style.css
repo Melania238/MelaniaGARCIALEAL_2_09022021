@@ -30,6 +30,7 @@ width:130px;
 height: 30px;
 border-radius: 0px 5px 5px 0px;
 font-size: 18px;
+margin-top: 3%;
 }
 
 input.input_rechercher { 
@@ -80,7 +81,7 @@ padding-left: 100px;
 
 section .img{
 
-    border-radius: 20% 20% 0% 0%;
+    border-radius: 23% 23% 0% 0%;
 }
 
 #conteneur2{
@@ -114,7 +115,7 @@ color: black;
 text-align: left;
 }
 
-.etoiles .fas fa-star {
+.etoiles .fas {
 text-align: left;
 color: #0065FC;
 }
@@ -151,11 +152,44 @@ float: right;
 }
 
 .thumb{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     background-color: white;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 30px;
 }
+/** ICONES **/
+
+input[type=text] {
+width:100%; 
+max-width:250px; 
+border:2px solid #a1a1a1; 
+border-radius:21px; 
+margin:8px 0; 
+outline:none; 
+padding:8px; 
+box-sizing:border-box; 
+}
+
+input[type=text]{
+height:35px;
+
+}
+
+.input-icone input[type=text] {
+padding-left:35px; 
+
+}
+.input-icone{
+position:relative; 
+display: inline-flex;
+
+}
+.input-icone i{
+position:absolute; left:0; top:8px; padding:9px 8px; color:blue; }
+input[type=text]:hover {
+background: blue; }
+
+
 
 footer{
     float: left; 
