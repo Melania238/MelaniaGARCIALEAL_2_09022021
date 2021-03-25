@@ -120,8 +120,8 @@ color: black;
 text-align: left;
 }
 
-.etoiles {
-text-align: right;
+#etoiles {
+text-align: left;
 color: #0065FC;
 }
 
