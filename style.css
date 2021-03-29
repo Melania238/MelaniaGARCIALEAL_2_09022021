@@ -36,13 +36,13 @@ border-radius: 0px 0px 0px 0px;
 }
 
 input.btn_rechercher  {
-background-color: blue;
-color:white ;
-width:130px; 
-height: 30px;
-border-radius: 0px 5px 5px 0px;
-font-size: 18px;
-margin-top: 3%;
+    background-color: blue;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 18px;
+    /* margin-top: 3%;*/
 }
 
 input.input_rechercher { 
@@ -104,17 +104,15 @@ font-family: 'Raleway', sans-serif;
     margin-left: 54px;
 }
 
-
-
 h6{
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Raleway', sans-serif;
 font-size: 12px;
-text-align: left;
+text-align: center;
 margin:0;
 } 
 
 p{
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Raleway', sans-serif;
 font-size: 12px;
 color: black;
 text-align: left;
@@ -150,13 +148,33 @@ padding-left: 16px;
 }
 
 #conteneur3{
-    width: 500px;
+    
+    margin-top: 40%;
+    margin-bottom: 40%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 32%;
+    align-items: flex-start;
+    height: 200px;
+    /* position: absolute; */
+
+}
+#conteneur3 .thumb{
+    border-radius: 40%;
 }
 
+#conteneur3 .thumb:first-child{
+   width: 60%;
+   height: 300px;
+}
+
+#conteneur3 img{
+
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+#conteneur3 h5{
+    position: absolute;
+}
 .section1{
     width: 55%;
     margin-right: 35px;
@@ -213,7 +231,6 @@ padding-left: 16px;
 
 }
 
-
 .thumb{
     margin-bottom: 30px;
     background-color: white;
@@ -249,20 +266,29 @@ display: inline-flex;
 
 }
 .input-icone i{
-position:absolute; 
-left:0; 
-top:8px; 
-padding:9px 8px; 
-color:blue; 
-background-color:#DEEBFF;
-border-radius: 14px 0px 0px 14px;
+position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 10px 5px;
+    color: blue;
+    background-color: #DEEBFF;
+    border-radius: 30%;
+    margin-left: 6px;
 }
 
 .input-icone i#localisation{
     color: black;
-    background-color:gainsboro;
+    background-color: gainsboro;
+    padding: 13px;
+    left: -14px;
+    top: 0px;
+    border-radius: 30% 0 0 30%;
 }
+input[type="search"]{
+    width: 100%;
+    margin-left: 44px;
 
+}
 fa-info-circle i#information{
     color: white;
     background-color:gainsboro;
@@ -275,10 +301,12 @@ input[type=text]:hover {
 
 
 footer{
-    float: left; 
-    background-color: gainsboro; 
+    float: left;
+    background-color: #F2F2F2;
     width: 100%;
-    margin:0 auto; 
+    margin: 0 auto;
+    /* position: absolute; */
+    bottom: 0;
 }
 
 footer ul{
@@ -289,7 +317,7 @@ footer ul{
 footer li{
 list-style-type: none;
 font-size: 13px;
-font-family:Arial, Helvetica, sans-serif;
+font-family: 'Raleway', sans-serif;
 padding-bottom: 12px;
 color: grey;
 }
