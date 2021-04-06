@@ -61,7 +61,6 @@ height: 25px;
     display: flex;
     list-style-type: none;   
     color: black;
-
 }
 
 .menu ul li{
@@ -90,7 +89,6 @@ margin-left: 35px;
 .alignement{
 padding-left: 35px;
 }
-
 
 p{
 font-family: 'Raleway', sans-serif;
@@ -167,6 +165,7 @@ section{
 
 .section2 p {
     text-align: left;
+    padding-left: 0px;
 }
 
 .section2 .thumb{
