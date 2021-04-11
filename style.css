@@ -45,6 +45,7 @@ input.btn_rechercher{
     height: 40px;
     border-radius: 0px 5px 5px 0px;
     font-size: 18px;
+    border:none;
 }
 
 input.input_rechercher{ 
@@ -75,16 +76,83 @@ color: black;
     border-top: 1px solid blue;
 }
 
-.filtres ul{
-padding-left: 50px;
-font-family: 'Raleway', sans-serif;
-margin-left: 35px;
+.menu ul li:nth-child(3){
+    color:blue;
+    font-weight: bold;
 }
 
-.filtres .alignement{
-float: left;
-margin-left: 35px;
+
+.menu-responsive{
+    display:none;
 }
+
+.Filtres p i {
+
+     
+        color: #0065fc;
+        width: 1.7em;
+        height: 1.7em;
+        border-radius: 15px;
+        margin-right: 9px;
+        border: 1.5px solid #d9d9d9;
+        min-width: 1.7em;
+        line-height: 1.5em;
+        text-align: center;  
+}
+
+
+.Filtres ul {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+.Filtres ul li.one {
+    /* le texte et l'icone*/
+    border-bottom: 1.5px solid #d9d9d9;
+    border-top: 1.5px solid #d9d9d9;
+    border-right: 1.5px solid #d9d9d9;
+    border-radius: 25px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 15px;
+    padding-right: 15px;
+    height: 2.5em;
+    margin-bottom: 10px;
+    display: inline-flex;
+    font-weight: bold;
+  }
+
+  .Filtres ul li.two {
+    /* le texte et l'icone*/
+    font-weight: bold;
+    padding:3px;
+    display: inline-flex;
+    font-size:1em;
+  }
+
+
+.Filtres ul li:hover {
+    /*changement au survol*/
+    border-bottom: 1.5px solid #deebff;
+    border-top: 1.5px solid #deebff;
+    border-right: 1.5px solid #deebff;
+    background-color: #deebff;
+    cursor: pointer; /*changement d'état de la souris*/
+  }
+  .Filtres ul li i {
+    /*les icônes des filtres*/
+    color: #0065fc;
+    background-color: #deebff;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+/* filtres */
 
 .alignement{
 padding-left: 35px;
@@ -101,6 +169,10 @@ text-align: center;
 color: #0065FC;
 }
 
+#etoiles #grey{
+
+    color: grey;
+}
 .section2 #etoiles{
     text-align: left;
 }
@@ -153,7 +225,7 @@ section{
 
 .section2{
     width: 30%;
-    margin-right: 30px;
+    
 }
 
 .section2 img{
@@ -308,6 +380,59 @@ color: black;
 }
 
 /** RESPONSIVE**/ 
+@media only screen and (max-width: 576px) {
+
+    .menu{
+        display:none;
+    }
+
+    .menu-responsive{
+        display: inline-flex;
+        list-style-type: none;   
+        color: black;
+    }
+
+    .menu-responsive nav ul li{
+        display: inline-flex;
+        list-style-type: none;   
+        color: black;
+        padding:30px 50px 10px 15px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        color: black;
+        flex-basis: 50%;
+    }
+
+    .menu-responsive a.sinscrire{
+        float:right;
+        color: blue;
+        font-weight: bold;
+        list-style-type: none;
+        font-family: 'Raleway', sans-serif;
+
+
+    }
+
+    .menu-responsive nav ul li:hover{
+        color:blue;
+        border-bottom: 1px solid blue;
+    }
+
+    .section1 .thumb{
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+
+    .section3 .thumb{
+        display:flex;
+        flex-direction: column;
+    }
+
+    
+}
+
 
 @media screen and (max-width: 940px){
 
@@ -316,22 +441,48 @@ color: black;
     }
     
     .section3 .box{
-
         max-width: 300px;
         margin:auto;
         margin-bottom:50px;
     }
+
+
+    .section1 .thumb{
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+
+    .section3 .thumb{
+        display:flex;
+        flex-direction: column;
+    }
+
 }
-
-
 
 @media screen and (max-width: 740px){
     
-.section1{
+    .section1{
     width: 100%;
-}
-.section2{
-    width:100%;
-}
+    }
 
+    .section2{
+    width:100%;
+    }
+
+    .section3{
+    width:100%;
+
+    .h1{
+    
+    }
+
+    .h5{
+  
+    }
+
+    .h6{
+   
+    }
 }
