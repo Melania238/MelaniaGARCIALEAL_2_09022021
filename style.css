@@ -508,6 +508,11 @@ footer li :nth-child(1){
         height: 151px!important;
     }
 
+    .section1 .img{
+        height: 139px;
+        width: 67%;
+    }
+
     .section1 .thumb{
         display:flex;
         flex-direction: column;
@@ -527,10 +532,22 @@ footer li :nth-child(1){
     }
 
     .section2{
-    width:100%;
+    width:113%;
     }
 
     .section3{
     width:100%;
+    }
+
+    .h6 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+        text-align: left;
+        margin: 35px;
+    }
+
+    #etoiles {
+        text-align: left;
+        margin: 35px;
     }
 }
