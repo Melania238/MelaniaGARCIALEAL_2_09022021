@@ -344,18 +344,14 @@ position: absolute;
 
 .rechercher i{
     position: absolute;
-    
-   top: 0;
+    top: 0;
     right: 0;
     color: #ffffff;
     background-color: blue;
-   
     margin-left: 100%;
-
     color: white;
     width: 40px;
-   
-    border-radius: 15%;
+    border-radius: 0px 15px 15px 0px;
     font-size: 18px;
     border:none;
     text-align: center;
@@ -486,12 +482,7 @@ color: black;
     .section3 .thumb{
         display:flex;
         flex-direction: column;
-    }
-
-    
-       
-
-    
+    }  
 }
 
 
