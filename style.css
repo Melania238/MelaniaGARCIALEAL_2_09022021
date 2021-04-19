@@ -11,9 +11,15 @@ h1{
     margin-left: 35px;
 }
 
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1,5em;
+    margin-left: 35px;
+}
+
 h5{
     font-family: 'Raleway', sans-serif;
-    font-size: 1em;
+    font-size: em;
     margin-left: 35px;
 }
 
@@ -76,6 +82,7 @@ padding:30px 50px 10px 15px;
 font-family: 'Raleway', sans-serif;
 font-size: 15px;
 color: black;
+font-weight: bold;
 }
 
 .menu ul li:hover{
@@ -91,33 +98,30 @@ color: black;
 .menu ul li:first-child{
     color:blue;
 }
+
 .menu-responsive{
     display:none;
 }
 
-
-
 .Filtres p i {
-
-     
-        color: #0065fc;
-        width: 1.7em;
-        height: 1.7em;
-        border-radius: 15px;
-        margin-right: 9px;
-        border: 1.5px solid #d9d9d9;
-        min-width: 1.7em;
-        line-height: 1.5em;
-        text-align: center;  
-        
+    color: #0065fc;
+    width: 1.7em;
+    height: 1.7em;
+    border-radius: 15px;
+    margin-right: 9px;
+    border: 1.5px solid #d9d9d9;
+    min-width: 1.7em;
+    line-height: 1.5em;
+    text-align: center;        
 }
 
 
 .Filtres ul {
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-bottom: 10px;
-  }
+}
+
 .Filtres ul li.one {
     /* le texte et l'icone*/
     border-bottom: 1.5px solid #d9d9d9;
@@ -125,8 +129,8 @@ color: black;
     border-right: 1.5px solid #d9d9d9;
     border-radius: 25px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-right: 15px;
     padding-right: 15px;
     height: 2.5em;
@@ -139,12 +143,12 @@ color: black;
 
   .Filtres ul li.two {
     /* le texte et l'icone*/
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     padding:3px;
     display: inline-flex;
     font-size:1em;
   }
-
 
 .Filtres ul li:hover {
     /*changement au survol*/
@@ -154,6 +158,7 @@ color: black;
     background-color: #deebff;
     cursor: pointer; /*changement d'état de la souris*/
   }
+
   .Filtres ul li i {
     /*les icônes des filtres*/
     color: #0065fc;
@@ -170,31 +175,31 @@ color: black;
 /* filtres */
 
 .alignement{
-padding-left: 35px;
+    padding-left: 35px;
 }
 
 p{
-font-family: 'Raleway', sans-serif;
-font-size: 12px;
-color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: black;
 }
 
 #etoiles{
-text-align: center;
-color: #0065FC;
+    text-align: center;
+    color: #0065FC;
 }
 
 #etoiles #grey{
-
     color: grey;
 }
+
 .section2 #etoiles{
     text-align: left;
 }
 
 .fa-chart-line{
-float: right;
-padding-right: 5%;
+    float: right;
+    padding-right: 5%;
 }
 
 a{
@@ -203,12 +208,12 @@ a{
 }
 
 .img{
-background-color: white;
+    background-color: white;
 }
 
 .texte{
-float: right;
-padding-left: 16px;
+    float: right;
+    padding-left: 16px;
 }
 
 section{
@@ -297,6 +302,7 @@ section{
 .section3 h6{
     text-align: left;
 }
+
 .thumb{
     margin-bottom: 30px;
     background-color: white;
@@ -304,35 +310,36 @@ section{
     border-radius: 15px;
     padding:2px;
 }
+
 /** ICONES **/
 
 input[type=text]{
-width:100%; 
-max-width:250px; 
-border:2px solid #f2f2f2; 
-border-radius:21px; 
-margin:8px; 
-outline:none; 
-padding:8px; 
-box-sizing:border-box; 
+    width:100%; 
+    max-width:250px; 
+    border:2px solid #f2f2f2; 
+    border-radius:21px; 
+    margin:8px; 
+    outline:none; 
+    padding:8px; 
+    box-sizing:border-box; 
 }
 
 .input[type=text]{
-height:35px;
+    height:35px;
 }
 
 .input-icone input[type=text]{
-padding-left:35px; 
-text-align: center;
+    padding-left:35px; 
+    text-align: center;
 }
 
 .input-icone{
-position:relative; 
-display: inline-flex;
+    position:relative; 
+    display: inline-flex;
 }
 
 .input-icone i{
-position: absolute;
+    position: absolute;
     left: 0;
     top: 8px;
     padding: 10px 5px;
@@ -373,8 +380,6 @@ input[type=text]:hover{
     margin-left: 46px;  
 }
 
-
-
 input[type="search"]{
     width: 100%;
     height: 40px;
@@ -402,17 +407,18 @@ footer ul{
 }
 
 footer li{
-list-style-type: none;
-font-size: 13px;
-font-family: 'Raleway', sans-serif;
-padding-bottom: 12px;
-color: grey;
+    list-style-type: none;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 12px;
+    color: grey;
 }
 
 footer li :nth-child(1){
-font-weight: bold;
-color: black;
+    font-weight: bold;
+    color: black;
 }
+
 
 /** RESPONSIVE**/ 
 @media only screen and (max-width: 576px) {
@@ -502,7 +508,6 @@ color: black;
         height: 151px!important;
     }
 
-
     .section1 .thumb{
         display:flex;
         flex-direction: column;
@@ -514,9 +519,7 @@ color: black;
         display:flex;
         flex-direction: column;
     }
-
 }
-
 @media screen and (max-width: 740px){
     
     .section1{
