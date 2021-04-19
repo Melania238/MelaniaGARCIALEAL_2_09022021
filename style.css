@@ -342,6 +342,27 @@ position: absolute;
     margin-left: 6px;
 }
 
+.rechercher i{
+    position: absolute;
+    
+   top: 0;
+    right: 0;
+    color: #ffffff;
+    background-color: blue;
+   
+    margin-left: 100%;
+
+    color: white;
+    width: 40px;
+   
+    border-radius: 15%;
+    font-size: 18px;
+    border:none;
+    text-align: center;
+    display: none;
+}
+
+
 input[type=text]:hover{
     background: gainsboro;
 }
@@ -360,6 +381,7 @@ input[type=text]:hover{
 
 input[type="search"]{
     width: 100%;
+    height: 40px;
     color: black;
     margin-left: 85px;
 }
@@ -442,6 +464,13 @@ color: black;
         border-bottom: 1px solid blue;
     }
     
+    .rechercher input{
+        display: none;
+    }
+
+    .rechercher i {
+        display: block;
+    }
 
     .section1 .thumb{
         display:flex;
