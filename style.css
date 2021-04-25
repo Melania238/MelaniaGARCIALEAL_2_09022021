@@ -13,13 +13,13 @@ h1{
 
 h2{
     font-family: 'Raleway', sans-serif;
-    font-size: 1,5em;
+    font-size: 1.5em;
     margin-left: 35px;
 }
 
 h5{
     font-family: 'Raleway', sans-serif;
-    font-size: em;
+    font-size: 1.5em;
     margin-left: 35px;
 }
 
@@ -184,16 +184,16 @@ p{
     color: black;
 }
 
-#etoiles{
+.etoiles{
     text-align: center;
     color: #0065FC;
 }
 
-#etoiles #grey{
+.etoiles .grey{
     color: grey;
 }
 
-.section2 #etoiles{
+.section2 .etoiles{
     text-align: left;
 }
 
@@ -245,7 +245,7 @@ section{
 
 .section2{
     width: 30%; 
-    height:580px;
+    height:612px;
 }
 
 .section2 img{
@@ -482,7 +482,7 @@ footer li :nth-child(1){
     }
 
     .h7 {
-        background-color: none;
+        background-color: white;
     }
 
     .section3 .thumb{
@@ -546,7 +546,7 @@ footer li :nth-child(1){
         margin: 35px;
     }
 
-    #etoiles {
+    .etoiles {
         text-align: left;
         margin: 35px;
     }
