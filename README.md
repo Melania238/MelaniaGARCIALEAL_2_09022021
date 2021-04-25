@@ -1,4 +1,4 @@
-Projet_2_MelaniaGARCIALEAL Reservia
+Projet 2_Reservia
 
 Ceci est la première version du site Reservia.
 
