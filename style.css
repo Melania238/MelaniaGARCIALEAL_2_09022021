@@ -508,6 +508,7 @@ footer li :nth-child(1){
         max-width: 500px;
         margin:auto;
         margin-bottom:10px;
+        padding-left: 15px;
     }
 
     .section1 .box1{
@@ -533,6 +534,7 @@ footer li :nth-child(1){
     .section1 .img{
         height: 139px;
         max-width: 500px;
+        padding-left: 15px;
     }
 
 
