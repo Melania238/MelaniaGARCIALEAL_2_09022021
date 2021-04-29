@@ -39,6 +39,9 @@ h7{
 
 .logo{
     width: 100%;
+}
+
+.logo_img{
     margin-left: 35px;
 }
 
@@ -436,7 +439,7 @@ footer li :nth-child(1){
         display: flex;
     }
     .menu{
-        display:none;
+        display:grid;
     }
 
     .menu-responsive{
@@ -457,7 +460,7 @@ footer li :nth-child(1){
     }
 
     .menu-responsive a.sinscrire{
-        float:right;
+        text-align: right;
         color: blue;
         font-weight: bold;
         list-style-type: none;
