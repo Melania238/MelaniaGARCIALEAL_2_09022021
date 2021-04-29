@@ -590,9 +590,9 @@ footer li :nth-child(1){
         text-align: left;
     }
 
-    .etoiles {
-        text-align: left;
+    .etoiles-padding {
         padding-left: 31px;
+        text-align: left ;
     }
 
    .section2_etoiles{
