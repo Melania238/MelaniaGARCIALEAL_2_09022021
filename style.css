@@ -552,7 +552,7 @@ footer li :nth-child(1){
         display:flex;
         flex-direction: column;
         width: 100%;
-        padding-left: 18px;
+        padding-left: 0px;
     }
 
     .section3 .thumb{
@@ -568,7 +568,7 @@ footer li :nth-child(1){
     }
 
     .section2{
-    width:113%;
+    width:100%;
     }
 
     .section3{
