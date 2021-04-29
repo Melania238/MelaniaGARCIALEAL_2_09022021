@@ -438,12 +438,13 @@ footer li :nth-child(1){
         flex-direction: column-reverse;
         display: flex;
     }
+
     .menu{
-        display:grid;
+        display:none;
     }
 
     .menu-responsive{
-        display: inline-flex;
+        display: grid;
         list-style-type: none;   
         color: black;
     }
