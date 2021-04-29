@@ -503,11 +503,11 @@ footer li :nth-child(1){
     
     footer ul{
         float: initial; 
-        padding-left: 109px;
+        padding-left: 30px;
     }
     
     footer {
-        width: 426px;
+       
     }
 }
 
