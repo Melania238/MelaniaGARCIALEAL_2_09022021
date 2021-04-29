@@ -499,6 +499,7 @@ footer li :nth-child(1){
     
     footer ul{
         float: initial; 
+        padding-left: 40px;
     }
     
     footer {
