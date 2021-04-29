@@ -117,7 +117,7 @@ font-weight: bold;
 
 
 .Filtres ul {
-    -ms-flex-preferred-size: 100%;
+   /*commentaire*/  -ms-flex-preferred-size: 100%; /*commentaire*/
     flex-basis: 100%;
     margin-bottom: 10px;
 }
@@ -128,8 +128,8 @@ font-weight: bold;
     border-top: 1.5px solid #d9d9d9;
     border-right: 1.5px solid #d9d9d9;
     border-radius: 25px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+    /*commentaire*/-webkit-box-align: center;/*commentaire*/
+    /*commentaire*/-ms-flex-align: center;/*commentaire*/
     align-items: center;
     margin-right: 15px;
     padding-right: 15px;
@@ -152,9 +152,9 @@ font-weight: bold;
 
 .Filtres ul li:hover {
     /*changement au survol*/
-    border-bottom: 1.5px solid #deebff;
-    border-top: 1.5px solid #deebff;
-    border-right: 1.5px solid #deebff;
+    border-bottom: 1.5px solid;
+    border-top: 1.5px solid;
+    border-right: 1.5px solid; 
     background-color: #deebff;
     cursor: pointer; /*changement d'état de la souris*/
   }
