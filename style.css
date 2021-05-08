@@ -518,7 +518,7 @@ footer li :nth-child(1){
         max-width: 500px;
         margin:auto;
         margin-bottom:10px;
-        margin-left: 10px;
+        margin-left: -11px;
     }
 
     .section1 .box1{
@@ -558,6 +558,7 @@ footer li :nth-child(1){
     .section3 .thumb{
         display:flex;
         flex-direction: column;
+        width: 374px;
     }
 
 }
