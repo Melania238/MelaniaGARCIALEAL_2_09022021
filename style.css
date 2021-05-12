@@ -427,172 +427,495 @@ footer li :nth-child(1){
 
 
 /** RESPONSIVE**/ 
-@media only screen and (max-width: 576px) {
 
+@media (max-device-width:768px) and (orientation: landscape) {
+    html {
+     -webkit-text-size-adjust: 100%;
+     -ms-text-size-adjust: 100%;
+    }
+  }
+  
+  textarea,
+  table,
+  td,
+  th,
+  code,
+  pre,
+  samp {
+          -webkit-hyphens: auto; /* césure propre */
+          -moz-hyphens: auto;
+          hyphens: auto;
+          word-wrap: break-word; /* passage à la ligne forcé */
+      }
+  
+  
+  @media only screen and (max-width: 376px) {
+  
+  footer{
+      width: 400px;
+  }
+  
+  .section2{
+    width: 376px!important;
+  }
+  
+  .section1{
+  
+    width: 376px!important;
+  }
+  
+  
+  }
+  @media only screen and (max-width: 576px) {
+  
+      .section1{
+          background: none;
+          margin: 0;
+      }
+       
+      #regroupement {
+          flex-direction: column-reverse;
+          display: flex;
+      }
+  
+      .menu{
+          display:none;
+      }
+  
+      .menu-responsive{
+          display: grid;
+          list-style-type: none;   
+          color: black;
+      }
+  
+      .menu-responsive nav ul li{
+          display: inline-flex;
+          list-style-type: none;   
+          color: black;
+          padding:30px 50px 10px 15px;
+          font-family: 'Raleway', sans-serif;
+          font-size: 15px;
+          color: black;
+          flex-basis: 50%;
+      }
+  
+      .menu-responsive a.sinscrire{
+          text-align: right;
+          color: blue;
+          font-weight: bold;
+          list-style-type: none;
+          font-family: 'Raleway', sans-serif; 
+      }
+  
+      .menu-responsive nav ul li:hover{
+          color:blue;
+          border-bottom: 1px solid blue;
+      }
+      
+      .rechercher input{
+          display: none;
+      }
+  
+      .rechercher i {
+          display: block;
+      }
+  
+      .section1 .thumb{
+          display:flex;
+          flex-direction: row-reverse;
+          margin: auto;
+          width: 100%;
+      }
+  
+      .h7 {
+          background-color: white;
+      }
+  
+      .section2 .thumb{
+          height: 86px;
+          
+      }
+      .section3 .thumb{
+          display:flex;
+          flex-direction: column;
+      }
+      
+      footer ul{
+          float: initial; 
+          padding-left: 30px;
+      }
+  }
+
+  /* Landscape Ipad */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  
     .section1{
-        background: none;
-        margin: 0;
-    }
-     
-    #regroupement {
-        flex-direction: column-reverse;
-        display: flex;
-    }
-
-    .menu{
-        display:none;
-    }
-
-    .menu-responsive{
-        display: grid;
-        list-style-type: none;   
-        color: black;
-    }
-
-    .menu-responsive nav ul li{
-        display: inline-flex;
-        list-style-type: none;   
-        color: black;
-        padding:30px 50px 10px 15px;
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        color: black;
-        flex-basis: 50%;
-    }
-
-    .menu-responsive a.sinscrire{
-        text-align: right;
-        color: blue;
-        font-weight: bold;
-        list-style-type: none;
-        font-family: 'Raleway', sans-serif; 
-    }
-
-    .menu-responsive nav ul li:hover{
-        color:blue;
-        border-bottom: 1px solid blue;
-    }
-    
-    .rechercher input{
-        display: none;
-    }
-
-    .rechercher i {
-        display: block;
-    }
-
-    .section1 .thumb{
+        width: 947px;
+        margin-bottom: 15px;
+      }
+       
+      .section1 .thumb{
+        height: 211px;
+        border-radius: 10px 10px 45px 45px;
+        max-width: 399px;
+        margin-left: 358px;
         display:flex;
         flex-direction: row-reverse;
+      }
+
+      .section1 .box1{
+        width: 400px;
+      }
+      .section2{
+        margin: 32px;
+        width: 93%!important;
+      }
+      
+      .section2 .thumb{
+        width: 500px;
+        margin-left: 210px;
+        height: 86px; 
+        }
+
+        .section3{
+          margin: 0;
+          width: 100%!important;
+      }
+  
+      .section3 .thumb {
+        width: 214px;
+    }
+
+      #regroupement {
+          flex-direction: column-reverse;
+          display: flex;
+      }
+  
+      .menu{
+          display:none;
+      }
+  
+      .menu-responsive{
+          display: grid;
+          list-style-type: none;   
+          color: black;
+      }
+  
+      .menu-responsive nav ul li{
+          display: inline-flex;
+          list-style-type: none;   
+          color: black;
+          padding:30px 50px 10px 15px;
+          font-family: 'Raleway', sans-serif;
+          font-size: 15px;
+          color: black;
+          flex-basis: 50%;
+      }
+  
+      .menu-responsive a.sinscrire{
+          text-align: right;
+          color: blue;
+          font-weight: bold;
+          list-style-type: none;
+          font-family: 'Raleway', sans-serif; 
+      }
+  
+      .menu-responsive nav ul li:hover{
+          color:blue;
+          border-bottom: 1px solid blue;
+      }
+      
+      .rechercher input{
+          display: none;
+      }
+  
+      .rechercher i {
+          display: block;
+      }
+  
+      .h7 {
+          background-color: white;
+      }
+      
+      footer ul{ 
+        padding-left: 150px;
+      }
+  }
+  
+  /* Portrait Ipad */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  
+      .section1{
+        width: 719px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+      }
+       
+      .section1 .thumb{
+        height: 211px;
+        border-radius: 10px 10px 45px 45px;
+        max-width: 399px;
+        margin-left: 145px;
+      }
+
+      .section1 .box1{
+        width: 400px;
+      }
+      .section2{
+        margin: 0px;
+        width: 94%!important;
+      }
+      
+      .section2 .thumb{
+        width: 500px;
+        margin-left: 86px;  
+        }
+
+        .section3{
+          margin: 0;
+          width: 100%!important;
+      }
+  
+      .section3 .thumb {
+        max-width: 500px;
         margin: auto;
-        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 170px;
     }
 
-    .h7 {
-        background-color: white;
-    }
+      .menu{
+          display:none;
+      }
+  
+      .menu-responsive{
+          display: grid;
+          list-style-type: none;   
+          color: black;
+      }
+  
+      .menu-responsive nav ul li{
+          display: inline-flex;
+          list-style-type: none;   
+          color: black;
+          padding:30px 50px 10px 15px;
+          font-family: 'Raleway', sans-serif;
+          font-size: 15px;
+          color: black;
+          flex-basis: 50%;
+      }
+  
+      .menu-responsive a.sinscrire{
+          text-align: right;
+          color: blue;
+          font-weight: bold;
+          list-style-type: none;
+          font-family: 'Raleway', sans-serif; 
+          margin-right: 59px;
+      }
+  
+      .menu-responsive nav ul li:hover{
+          color:blue;
+          border-bottom: 1px solid blue;
+      }
+      
+      footer ul{
+          float: initial; 
+          padding-left: 320px;
+      }
 
-    .section2 .thumb{
-        height: 86px;
-        
-    }
-    .section3 .thumb{
-        display:flex;
-        flex-direction: column;
+      .etoiles{
+          text-align: left;
+          padding-left: 32px;
+      }
+  }
+  
+  @media screen and (max-width: 940px){
+  
+      .section3{
+          display:flex;
+      }
+      
+      .section3 .box{
+          max-width: 500px;
+          margin:auto;
+          margin-bottom:10px;
+          margin-left: -11px;
+      }
+  
+      .section1 .box1{
+          box-shadow: 2px 5px 16px #f1f1f1;
+          max-width: 500px;
+          margin:auto;
+          margin-bottom: 10px;
+          border-radius: 12%;
+      }
+  
+      .section1 .texte_box1 h6{
+      text-align: left; 
+      padding-left: 36px;   
+      }
+  
+      .section3 img{
+         max-width: 500px;
+      }
+  
+      .section3 img.img_hauteur{
+          height: 163px;
+      }
+  
+      .section1 .img{
+          height: 139px;
+          max-width: 500px;
+      }
+  
+  
+      .section1 .thumb{
+          display:flex;
+          flex-direction: column;
+          width: 100%;
+          padding-left: 0px;
+      }
+  
+      .section3 .thumb{
+          display:flex;
+          flex-direction: column;
+          width: 376px;
+      }
+  
+  }
+  @media screen and (max-width: 740px){
+      
+      .section1{
+      width: 100%;
+      }
+  
+      .section2{
+      width:100%;
+      }
+  
+      .section3{
+      width:100%;
+      }
+  
+      .h6 {
+          font-family: 'Raleway', sans-serif;
+          font-size: 12px;
+          text-align: left;
+          margin: 35px;
+      }
+  
+      .section2 h6 {
+          text-align: left;
+      }
+  
+      .etoiles-padding {
+          padding-left: 31px;
+          text-align: left ;
+      }
+  
+     .section2_etoiles{
+         padding-left: 0px;
+     }
+
+
+     /* Portrait Iphone X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) { 
+    
+    
+    .section2{
+        width: 376px!important;
+    
     }
     
-    footer ul{
-        float: initial; 
-        padding-left: 30px;
-    }
-}
-
-
-@media screen and (max-width: 940px){
-
-    .section3{
-        display:flex;
+    .section1 .thumb{
+        width: 376px;
+        margin-left: 0px;
     }
     
     .section3 .box{
-        max-width: 500px;
-        margin:auto;
-        margin-bottom:10px;
-        margin-left: -11px;
+        width: 376px;
     }
 
-    .section1 .box1{
-        box-shadow: 2px 5px 16px #f1f1f1;
-        max-width: 500px;
-        margin:auto;
-        margin-bottom: 10px;
-        border-radius: 12%;
+    footer ul{
+        padding-left: 100px;
     }
-
-    .section1 .texte_box1 h6{
-    text-align: left; 
-    padding-left: 36px;   
-    }
-
-    .section3 img{
-       max-width: 500px;
-    }
-
-    .section3 img.img_hauteur{
-        height: 163px;
-    }
-
-    .section1 .img{
-        height: 139px;
-        max-width: 500px;
-    }
-
-
-    .section1 .thumb{
-        display:flex;
-        flex-direction: column;
-        width: 100%;
-        padding-left: 0px;
-    }
-
-    .section3 .thumb{
-        display:flex;
-        flex-direction: column;
-        width: 374px;
-    }
-
 }
-@media screen and (max-width: 740px){
+
+/* Landscape Iphone X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
     
     .section1{
-    width: 100%;
+        background: f2f2f2;
+        margin: 10px;
+        width: 97%;
+    }
+
+    .section1 .thumb {
+        
+    }
+    .section3 .box{
+        max-width: 500px;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-left: -11px;   
     }
 
     .section2{
-    width:100%;
+        margin: 29px;
+        width: 93%!important;
+    }
+    
+    .section2 .thumb{
+        height: 87px;
+        margin-left: 120px;
+        width: 500px;  
+    }
+    
+    }
+}
+
+/* Landscape Iphone 8 */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+
+    .section1{
+        width: 607px;
+        margin-left: 10px;
+        margin-bottom: 15px;
     }
 
-    .section3{
-    width:100%;
+    .section1 .thumb{
+        width: 499px;
+        height: 212px;
+        border-radius: 12px 12px 42px 42px;
+        margin-left: 70px;
     }
 
-    .h6 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 12px;
-        text-align: left;
-        margin: 35px;
+    .section2{
+        width: 607px;
+        margin-left: 10px;
+    }
+    
+    .section2 .thumb{
+        margin-left: 70px;
     }
 
-    .section2 h6 {
-        text-align: left;
+    .section3 .thumb{
+        width: 400px;
+        margin-left: 100px; 
     }
 
-    .etoiles-padding {
-        padding-left: 31px;
-        text-align: left ;
+    footer ul{
+        padding-left: 54px;
     }
 
-   .section2_etoiles{
-       padding-left: 0px;
-   }
+/* Portrait S5*/
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+
+}
+
+/* Landscape S5*/
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+
+}
+
 }
