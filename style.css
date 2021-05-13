@@ -456,12 +456,12 @@ footer li :nth-child(1){
   }
   
   .section2{
-    width: 376px!important;
+    width: 400px!important;
   }
   
   .section1{
   
-    width: 376px!important;
+    width: 400px!important;
   }
   
   
@@ -550,15 +550,16 @@ footer li :nth-child(1){
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
     .section1{
-        width: 947px;
+        width: 990px;
         margin-bottom: 15px;
+        margin-left: 15px;
       }
        
       .section1 .thumb{
         height: 211px;
         border-radius: 10px 10px 45px 45px;
         max-width: 399px;
-        margin-left: 358px;
+        margin-left: 350px;
         display:flex;
         flex-direction: row-reverse;
       }
@@ -568,12 +569,13 @@ footer li :nth-child(1){
       }
       .section2{
         margin: 32px;
-        width: 93%!important;
+        width: 97%!important;
+        margin-left: 15px;
       }
       
       .section2 .thumb{
         width: 500px;
-        margin-left: 210px;
+        margin-left: 150px;
         height: 86px; 
         }
 
@@ -646,9 +648,9 @@ footer li :nth-child(1){
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   
       .section1{
-        width: 719px;
+        width: 738px;
         margin-bottom: 15px;
-        margin-left: 0px;
+        margin-left: 15px;
       }
        
       .section1 .thumb{
@@ -663,7 +665,8 @@ footer li :nth-child(1){
       }
       .section2{
         margin: 0px;
-        width: 94%!important;
+        width: 96%!important;
+        margin-left: 15px;
       }
       
       .section2 .thumb{
@@ -779,7 +782,8 @@ footer li :nth-child(1){
       .section3 .thumb{
           display:flex;
           flex-direction: column;
-          width: 376px;
+          width: 400px;
+          margin-left: 100px;
       }
   
   }
@@ -823,17 +827,21 @@ footer li :nth-child(1){
     
     
     .section2{
-        width: 376px!important;
+        width: 413px!important;
     
     }
     
     .section1 .thumb{
-        width: 376px;
+        width: 413px;
         margin-left: 0px;
     }
     
     .section3 .box{
-        width: 376px;
+        width: 413px;
+    }
+
+    .footer{
+        width: 413px;
     }
 
     footer ul{
@@ -842,17 +850,31 @@ footer li :nth-child(1){
 }
 
 /* Landscape Iphone X */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
+@media only screen and (min-device-width: 376px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
     
-    .section1{
+    #section1 .section1{
         background: f2f2f2;
-        margin: 10px;
-        width: 97%;
+        width: 782px;
+        margin-bottom: 15px;
+        margin-left: 15px;
     }
 
-    .section1 .thumb {
-        
+    .global-thumb{
+        width: 783px;
+        margin-bottom: 15px;
+        margin-left: 15px;
     }
+
+    .section1-thumb {
+        width: 782px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .section3 .thumb{
+        width: 500px;
+    }
+
     .section3 .box{
         max-width: 500px;
         margin: auto;
@@ -878,8 +900,8 @@ footer li :nth-child(1){
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
 
     .section1{
-        width: 607px;
-        margin-left: 10px;
+        width: 638px;
+        margin-left: 15px;
         margin-bottom: 15px;
     }
 
@@ -891,8 +913,8 @@ footer li :nth-child(1){
     }
 
     .section2{
-        width: 607px;
-        margin-left: 10px;
+        width: 638px;
+        margin-left: 15px;
     }
     
     .section2 .thumb{
