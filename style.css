@@ -246,6 +246,10 @@ section{
     border-radius: 8px 8px 0px 0px;
 }
 
+.section1 .box1{
+    background-color:white;
+    border-radius: 8px 0 8px 8px;
+}
 .section2{
     width: 30%; 
     height:612px;
@@ -268,6 +272,7 @@ section{
     display: inline-flex;
     margin-left: 30px;
     margin-bottom: 49px;
+    background-color: white;
 
 }
 
@@ -311,7 +316,7 @@ section{
 
 .thumb{
     margin-bottom: 30px;
-    background-color: white;
+   /* background-color: white;*/
     text-align: center;
     border-radius: 15px;
     padding:2px;
@@ -449,21 +454,29 @@ footer li :nth-child(1){
       }
   
   
-  @media only screen and (max-width: 376px) {
+  @media only screen and (max-width: 375px) { /*Iphone  8 portrait */
   
   footer{
-      width: 400px;
+      width: 413px;
   }
   
   .section2{
-    width: 400px!important;
+    width: 413px!important;
   }
   
   .section1{
   
-    width: 400px!important;
+    width: 413px!important;
   }
   
+  .section3 .thumb{
+
+    width: 413px!important;
+  }
+
+  .fa-chart-line{
+      padding-right: 13%!important;
+  }
   
   }
   @media only screen and (max-width: 576px) {
@@ -550,33 +563,28 @@ footer li :nth-child(1){
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
     .section1{
-        width: 990px;
-        margin-bottom: 15px;
-        margin-left: 15px;
+        width: 100%;
+        margin:0!important; 
       }
        
       .section1 .thumb{
-        height: 211px;
-        border-radius: 10px 10px 45px 45px;
-        max-width: 399px;
-        margin-left: 350px;
-        display:flex;
-        flex-direction: row-reverse;
+        margin-left: 6%;
       }
 
       .section1 .box1{
-        width: 400px;
+       width: 400px;
+       margin: auto;
       }
+
       .section2{
-        margin: 32px;
-        width: 97%!important;
-        margin-left: 15px;
+        width: 100%;
+        margin:0!important; 
       }
-      
+    
       .section2 .thumb{
         width: 500px;
-        margin-left: 150px;
-        height: 86px; 
+        margin:auto;
+        height: 86px;
         }
 
         .section3{
@@ -586,6 +594,7 @@ footer li :nth-child(1){
   
       .section3 .thumb {
         width: 214px;
+        margin: auto;
     }
 
       #regroupement {
@@ -648,30 +657,33 @@ footer li :nth-child(1){
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   
       .section1{
-        width: 738px;
+        width: 768px;
         margin-bottom: 15px;
-        margin-left: 15px;
+        margin: 0!important;
+    
       }
        
       .section1 .thumb{
         height: 211px;
         border-radius: 10px 10px 45px 45px;
         max-width: 399px;
-        margin-left: 145px;
+        margin: auto;
+        margin-bottom: 5%;
       }
 
       .section1 .box1{
         width: 400px;
       }
+
       .section2{
-        margin: 0px;
-        width: 96%!important;
-        margin-left: 15px;
+        margin: 0;
+        width: 768px;
+        margin-top: 10px;
       }
       
       .section2 .thumb{
-        width: 500px;
-        margin-left: 86px;  
+        width: 500px; 
+        margin: auto;
         }
 
         .section3{
@@ -683,7 +695,11 @@ footer li :nth-child(1){
         max-width: 500px;
         margin: auto;
         margin-bottom: 10px;
-        margin-left: 170px;
+    }
+
+    .section3 .box {
+        margin: auto;
+        margin-bottom: 10px;
     }
 
       .menu{
@@ -732,7 +748,7 @@ footer li :nth-child(1){
       }
   }
   
-  @media screen and (max-width: 940px){
+  @media screen and (max-width: 940px){/*ordinateur petit écran */
   
       .section3{
           display:flex;
@@ -747,6 +763,7 @@ footer li :nth-child(1){
   
       .section1 .box1{
           box-shadow: 2px 5px 16px #f1f1f1;
+          background-color: white;
           max-width: 500px;
           margin:auto;
           margin-bottom: 10px;
@@ -780,10 +797,10 @@ footer li :nth-child(1){
       }
   
       .section3 .thumb{
-          display:flex;
-          flex-direction: column;
-          width: 400px;
-          margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 413px;
+       
       }
   
   }
@@ -823,7 +840,7 @@ footer li :nth-child(1){
 
 
      /* Portrait Iphone X */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) { 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) { 
     
     
     .section2{
@@ -850,12 +867,13 @@ footer li :nth-child(1){
 }
 
 /* Landscape Iphone X */
-@media only screen and (min-device-width: 376px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
+
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 1) { 
     
-    #section1 .section1{
+    .section1{
         background: f2f2f2;
         width: 782px;
-        margin-bottom: 15px;
+        margin-top: 15px;
         margin-left: 15px;
     }
 
@@ -867,13 +885,18 @@ footer li :nth-child(1){
 
     .section1-thumb {
         width: 782px;
-        margin-bottom: 15px;
-        margin-left: 15px;
+        margin-bottom: 15px; 
+    }
+
+    .etoiles .etoiles-padding{
+        text-align: left;
     }
 
     .section3 .thumb{
         width: 500px;
+        margin: auto;
     }
+
 
     .section3 .box{
         max-width: 500px;
@@ -883,16 +906,13 @@ footer li :nth-child(1){
     }
 
     .section2{
-        margin: 29px;
-        width: 93%!important;
+        margin: 0!important;
+        width: 800px;
+        margin-bottom: 10px;
     }
     
-    .section2 .thumb{
-        height: 87px;
-        margin-left: 120px;
-        width: 500px;  
-    }
-    
+    footer{
+    width: auto;
     }
 }
 
@@ -900,25 +920,26 @@ footer li :nth-child(1){
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
 
     .section1{
-        width: 638px;
-        margin-left: 15px;
-        margin-bottom: 15px;
+       margin:0!important;
+       
     }
 
     .section1 .thumb{
         width: 499px;
+        margin: auto;
         height: 212px;
         border-radius: 12px 12px 42px 42px;
-        margin-left: 70px;
+        margin-bottom: 30px;
+       
     }
 
     .section2{
-        width: 638px;
-        margin-left: 15px;
+       margin-top: 5%;
+      
     }
     
     .section2 .thumb{
-        margin-left: 70px;
+       
     }
 
     .section3 .thumb{
@@ -926,9 +947,15 @@ footer li :nth-child(1){
         margin-left: 100px; 
     }
 
+    .section3 .box{
+        margin: auto;
+    }
+
     footer ul{
         padding-left: 54px;
     }
+
+}
 
 /* Portrait S5*/
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
