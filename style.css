@@ -433,7 +433,7 @@ footer li :nth-child(1){
 
 /** RESPONSIVE**/ 
 
-@media (max-device-width:768px) and (orientation: landscape) {
+@media (max-width:768px) and (orientation: landscape) {
     html {
      -webkit-text-size-adjust: 100%;
      -ms-text-size-adjust: 100%;
@@ -457,7 +457,7 @@ footer li :nth-child(1){
   @media only screen and (max-width: 375px) { /*Iphone  8 portrait */
   
   footer{
-      width: 413px;
+      width: 413px!important;
   }
   
   .section2{
@@ -560,7 +560,7 @@ footer li :nth-child(1){
   }
 
   /* Landscape Ipad */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
   
     .section1{
         width: 100%;
@@ -654,7 +654,7 @@ footer li :nth-child(1){
   }
   
   /* Portrait Ipad */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
   
       .section1{
         width: 768px;
@@ -840,7 +840,7 @@ footer li :nth-child(1){
 
 
      /* Portrait Iphone X */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) { 
+@media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) { 
     
     
     .section2{
@@ -868,10 +868,9 @@ footer li :nth-child(1){
 
 /* Landscape Iphone X */
 
-@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 1) { 
+@media only screen and (min-width : 375px) and (max-height : 812px) and (-webkit-device-pixel-ratio : 1) { 
     
     .section1{
-        background: f2f2f2;
         width: 782px;
         margin-top: 15px;
         margin-left: 15px;
@@ -911,17 +910,16 @@ footer li :nth-child(1){
         margin-bottom: 10px;
     }
     
-    footer{
-    width: auto;
+    footer ul {
+    margin: auto;
     }
 }
 
 /* Landscape Iphone 8 */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) { 
 
     .section1{
        margin:0!important;
-       
     }
 
     .section1 .thumb{
@@ -930,17 +928,12 @@ footer li :nth-child(1){
         height: 212px;
         border-radius: 12px 12px 42px 42px;
         margin-bottom: 30px;
-       
     }
 
     .section2{
        margin-top: 5%;
-      
     }
     
-    .section2 .thumb{
-       
-    }
 
     .section3 .thumb{
         width: 400px;
@@ -954,16 +947,6 @@ footer li :nth-child(1){
     footer ul{
         padding-left: 54px;
     }
-
-}
-
-/* Portrait S5*/
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
-
-}
-
-/* Landscape S5*/
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
 
 }
 
