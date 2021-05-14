@@ -595,7 +595,7 @@ footer li :nth-child(1){
       .section3 .thumb {
         width: 214px;
         margin: auto;
-    }
+        }
 
       #regroupement {
           flex-direction: column-reverse;
@@ -660,7 +660,6 @@ footer li :nth-child(1){
         width: 768px;
         margin-bottom: 15px;
         margin: 0!important;
-    
       }
        
       .section1 .thumb{
@@ -788,7 +787,6 @@ footer li :nth-child(1){
           max-width: 500px;
       }
   
-  
       .section1 .thumb{
           display:flex;
           flex-direction: column;
@@ -800,7 +798,6 @@ footer li :nth-child(1){
         display: flex;
         flex-direction: column;
         width: 413px;
-       
       }
   
   }
@@ -845,7 +842,6 @@ footer li :nth-child(1){
     
     .section2{
         width: 413px!important;
-    
     }
     
     .section1 .thumb{
@@ -896,7 +892,6 @@ footer li :nth-child(1){
         margin: auto;
     }
 
-
     .section3 .box{
         max-width: 500px;
         margin: auto;
@@ -908,10 +903,6 @@ footer li :nth-child(1){
         margin: 0!important;
         width: 800px;
         margin-bottom: 10px;
-    }
-    
-    footer ul {
-    margin: auto;
     }
 }
 
@@ -947,7 +938,6 @@ footer li :nth-child(1){
     footer ul{
         padding-left: 54px;
     }
-
 }
 
 }
