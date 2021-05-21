@@ -649,7 +649,16 @@ footer li :nth-child(1){
       }
       
       footer ul{ 
-        padding-left: 150px;
+        padding-left: 60px;
+        width: 227px;
+        margin: auto;
+        
+      }
+
+      footer{
+          margin: auto;
+          width: 880px;
+          padding-bottom: 30px;
       }
   }
   
@@ -903,6 +912,10 @@ footer li :nth-child(1){
         margin: 0!important;
         width: 800px;
         margin-bottom: 10px;
+    }
+
+    footer ul {
+        padding:0!important;
     }
 }
 
